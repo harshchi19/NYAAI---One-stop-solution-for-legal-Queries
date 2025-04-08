@@ -1,0 +1,8 @@
+.env
+*.env
+config.py
+*.key
+*.pem
+*.pkl
+__pycache__/
+*.sqlite3

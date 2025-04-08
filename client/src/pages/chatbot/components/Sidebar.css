@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 102px;
+  height: 83vh;
+  width: 60px; /* Reduced width when closed */
+  background-color: #eeeeee;
+  transition: width 0.3s ease;
+  overflow: hidden;
+  border-radius: 16px;
+  border: 1.5px solid #434343;
+  backdrop-filter: blur(2px);
+  z-index: 1000; /* Ensure sidebar is above other content */
+}
+
+.sidebar.open {
+  width: 314px;
+}
+
+.sidebar-toggle {
+  padding: 20px;
+  cursor: pointer;
+}
+
+.sidebar-toggle img {
+  width: 36px;
+  height: 36px;
+}
+
+.sidebar-content {
+  padding: 20px;
+  color: black;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  position: relative;
+  top: -84px;
+  left: 47px;
+}
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(90deg, #16222A 0%, #626668 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  color: #FFF;
+  text-align: center;
+  font-family: Urbanist;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.user-name {
+  color: #1C282F;
+  font-family: Urbanist;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 136%;
+  white-space: nowrap;
+}
+
+.sidebar-options {
+  margin-top: 326px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.option img {
+  width: 36px;
+  height: 36px;
+  margin-right: 10px;
+}
+
+.option span {
+  color: #1C282F;
+  font-family: Urbanist;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 136%;
+  white-space: nowrap;
+}
+

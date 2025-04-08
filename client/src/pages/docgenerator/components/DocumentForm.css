@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Quicksand:wght@300..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+.doc-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  width: 98%;
+  margin: 40px 1%;
+}
+
+.document-form, .document-preview {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background-color: white;
+  font-family: 'Urbanist', sans-serif;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.document-form {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+label {
+  width: 200px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #444;
+  margin-right: 20px;
+  
+}
+
+input, select, textarea {
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  margin-left: 0px !important;
+}
+
+textarea {
+  font-family: 'Quicksand';
+  resize: none;
+  height: 200px;
+  font-family: 'Quicksand';
+  font-weight: 500;
+  font-size: 18px;
+}
+
+textarea::-webkit-scrollbar {
+  display: none; 
+}
+textarea {
+  -ms-overflow-style: none;  
+  scrollbar-width: none; 
+}
+
+
+button {
+  font-family: 'Urbanist';
+  padding: 12px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 22px;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, transform 0.2s;
+}
+.document-h3{
+  margin: 2px 0px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+  transform: translateY(-2px);
+}
+
+.document-preview {
+  display: flex;
+  width: 65%;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.document-preview textarea {
+  flex-grow: 1;
+  margin-bottom: 20px;
+}

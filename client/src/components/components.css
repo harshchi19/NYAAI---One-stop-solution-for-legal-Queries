@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Navbar.css */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 1.2rem;
+    transition: background-color 0.3s ease;
+    height: 15vh;
+    margin:1%;
+  }
+  
+  .navbar.home {
+    background-color: #ffffff;
+  }
+  
+  .navbar.other-page {
+    background-color: #000000;
+    border-radius: 20px 20px 20px 20px;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .logo {
+    width: 5rem;
+    height: 5rem;
+  }
+  
+  .company-name {
+    color: #000;
+    font-family: Urbanist;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.36px;
+  }
+  
+  .home .company-name {
+    color: #000000;
+  }
+  
+  .other-page .company-name {
+    color: #ffffff;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: -0.5rem;
+  }
+
+  .div-link{
+    width: max-content;
+    height: max-content;
+  }
+  
+  .nav-link {
+    color: #000;
+    font-family: Urbanist;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.2px;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+  
+  /* Styles for home page */
+  .home .nav-link {
+    color: #000000;
+  }
+  
+  .home .nav-link:hover {
+    background: linear-gradient(97deg, #FDCA00 38.57%, #B78628 99.12%);
+    border: #000000;
+    box-shadow:
+    rgba(45, 35, 66, 0.3) 0 4px 8px,
+    rgba(45, 35, 66, 0.2) 0 7px 5px -1px,
+    #fff 0 -3px 0 inset;
+     transform: translateY(-2px);
+  }
+  
+  .home .nav-link.active {
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  /* Styles for other pages */
+  .other-page .nav-link {
+    color: #ffffff;
+    border: #000 0.5px solid;
+  }
+  
+  .other-page .nav-link:hover {
+    border: #fff 0.5px solid;
+    box-shadow:
+    rgba(45, 35, 66, 0.3) 0 4px 8px,
+    rgba(45, 35, 66, 0.2) 0 7px 5px -1px,
+    #fff 0 -3px 0 inset;
+     transform: translateY(-2px);
+  }
+  
+  .other-page .nav-link.active {
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: #d6d6e7 0 3px 7px inset;
+  transform: translateY(2px);
+  }
