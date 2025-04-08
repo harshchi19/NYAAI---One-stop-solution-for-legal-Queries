@@ -200,3 +200,8 @@ For questions or collaboration, contact the team:
 - Research Paper: "Enhancing Legal Services with AI: Integrating Attorney Match, Case Analysis and Document Drafting" by Anushri Venkitaramanan et al.
 - Models: LLaMA 3, OpenAI GPT-4o, Google Gemini
 - Tools: FastAPI, React, Vite, Twilio, FAISS, Elasticsearch
+
+
+Canva link :
+1. https://www.canva.com/design/DAGkBUg5bmc/6Oqf2vm_tjMB_U522HwY5w/edit?utm_content=DAGkBUg5bmc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton 
+2. https://www.canva.com/design/DAGkCYyaoGQ/8LjsZKcj-W32WfdcI9gKpA/edit?utm_content=DAGkCYyaoGQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton 
