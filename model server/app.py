@@ -10,9 +10,7 @@ import os
 from openai import OpenAI
 
 # Setup for OpenAI
-token = os.environ.get("GITHUB_TOKEN", "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")
-endpoint = "https://models.inference.ai.azure.com"
-model_name = "gpt-4o"
+
 
 openai_client = OpenAI(
     base_url=endpoint,
